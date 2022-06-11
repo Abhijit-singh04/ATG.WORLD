@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.calender-icon{
+    /* background-color: salmon; */
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 20px;
+top: 316px;
+}
+.calender-icon img{
+    position: relative;
+    left: 0%;
+    /* right: 0%; */
+    top: 0%;
+    width: 20px;
+height: 20px;
+    background: none;
+}
+.date{
+    position: absolute;
+width: 142px;
+height: 20px;
+left: 45px;
+top: 316px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.location-icon{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 226px;
+top: 316px;
+}
+.location-icon img{
+    position: relative;
+    left: 0%;
+    /* right: 0%; */
+    top: 0%;
+    width: 20px;
+height: 20px;
+    background: none;
+}
+.location-text{
+    position: absolute;
+width: 128px;
+height: 20px;
+left: 250px;
+top: 316px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.card-link{
+    /* box-sizing: border-box; */
+    /* background-color: seagreen; */
+    position: absolute;
+width: 652px;
+height: 38px;
+left: 20px;
+top: 352px;
+
+background: #FFFFFF;
+border: 0.7px solid #A9AEB8;
+border-radius: 8px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.card-link-text{
+    font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 140.4%;
+/* or 18px */
+width: 80px;
+width: 80px;
+/* text-align: center; */
+
+color: #E56135;
+}
+@media screen and (max-width: 360px){
+    
+}

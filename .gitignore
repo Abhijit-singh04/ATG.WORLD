@@ -1,4 +1,10 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+firebase
+.firebaserc
+firebase.cmd
+firebase.ps1
+
+
+
 
 # dependencies
 /node_modules

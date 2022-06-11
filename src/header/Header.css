@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2px 2px 2px 2px; */
+
+    background: #FFFFFF;
+    /* background-color: red; */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+  
+.left-container {
+    /* background-color: skyblue; */
+    position: relative;
+    width: 162.57px;
+    height: 24px;
+     left: 72px;
+    /* top: 24px;  */
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.left-container img {
+    position: absolute;
+    left: 0%;
+    /* right: 0%; */
+    /* top: -0.02%; */
+    /* bottom: 0%; */
+    width: 162.57px;
+    height: 24px;
+}
+
+
+.middle {
+    /* background-colorgb(121, 121, 81)low; */
+    
+position: relative;
+width: 360px;
+height: 42px;
+/* left: 540px; */
+/* top: 16px; */
+}
+.search-bar{
+    position: absolute;
+width: 360px;
+height: 42px;
+/* left: 540px; */
+/* top: 16px; */
+
+background: #F2F2F2;
+border-radius: 21px;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+}
+.icon-container{
+    /* background-color: yellowgreen; */
+    position: relative;
+width: 22px;
+height: 22px;
+left: 21px;
+/* top: 16px; */
+
+}
+/* .icon-container-rectangle{
+    position: absolute;
+width: 22px;
+height: 22px;
+left: 554px;
+top: 26px;
+} */
+.search-bar input{
+    border: none;
+    background: transparent;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.placeholder{
+    position: relative;
+width: 242px;
+height: 19px;
+left: 40px;
+/* top: 28px; */
+display: flex;
+/* justify-content: center; */
+align-items: center;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #5C5C5C;
+
+}
+.icon-container img{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 22px;
+height: 22px;
+
+/* background: #7A7A7A; */
+}
+.right{
+    /* background-color: blue; */
+    position:relative;
+/* width: 183px; */
+height: 21px;
+right: 72px;
+/* top: 27px; */
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: right;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: #2E2E2E;
+}
+.right span{
+    color: #339AF0;
+}
+.arrow{
+    /* background-color: violet; */
+    position: relative;
+width: 24px;
+height: 24px;
+/* left: 1344px; */
+/* top: 26px; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+/* ============================================================= */
+.image-container{
+    
+position: absolute;
+width: 100%;
+height: 440px;
+left: 0px;
+top: 72px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url(body-image.png);
+background-position: center;
+background-size: cover;
+}
+.body-image{
+    position: absolute;
+    width: 100%;
+height: 440px;
+left: 0px;
+/* top: 72px; */
+
+/* background: url(body-image.png); */
+}
+.Computer-engineering{
+    position: absolute;
+width: 378px;
+height: 47px;
+left: 200px;
+top: 286px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.number-facts{
+    position: absolute;
+width: 327px;
+height: 23px;
+left: 200px;
+top:337px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+.line{
+    position: absolute;
+width: 1040px;
+height: 0px;
+left: 200px;
+top: 600px;
+
+border: 1px solid #E0E0E0;
+}
+.line0{
+    position: absolute;
+    width: 1296px;
+    height: 0px;
+    left: 72px;
+    top: 544px;
+    
+    opacity: 0;
+    border: 1px solid #E0E0E0;             
+}
+/* ================================tabs */
+.tabs{
+    position: absolute;
+    /* background-color: violet; */
+width: 358px;
+height: 21px;
+left: 200px;
+top: 559px;
+}
+.all-post{
+    position: absolute;
+width: 93px;
+height: 21px;
+/* left: 200px; */
+/* top: 559px; */
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.article{
+    position: absolute;
+width: 47px;
+height: 21px;
+left: 113px; /*313-200*/
+/* top: 559px; */
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #8A8A8A;
+
+}
+.event{
+    position: absolute;
+width: 41px;
+height: 21px;
+left: 180px;
+/* 380-200 */
+/* top: 559px; */
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #8A8A8A;
+}
+.education{
+    position: absolute;
+    width: 72px;
+    height: 21px;
+    left: 239px;
+    /* top: 559px; */
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #8A8A8A;
+}
+.job{
+    position: absolute;
+    width: 27px;
+    height: 21px;
+    left: 331px;
+    /* top: 559px; */
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #8A8A8A;
+}
+@media screen and (max-width: 360px) {
+    .navbar-container{
+        position: absolute;
+    width: 360px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    }
+    .left-container{
+        display: none;
+    }
+    .middle{
+        display: none;
+    }
+    .middle .search-bar{
+        display: none;
+    }
+
+    .image-container {
+        position: absolute;
+        width: 360px;
+        height: 236px;
+        left: 0px;
+        top: 44px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url(bodysmall.png);
+    }
+    .image-container .body-image{
+        position: relative;
+        width: 360px;
+        height: 236px;
+        left: 0px;
+        background-image: 360px 236px;
+        /* background-position: top; */
+}
+.right{
+    display: none;
+}
+.Computer-engineering{
+    left: 16px;
+    font-size: 17px;
+    top: 164px;
+
+}
+.number-facts{
+    left: 16px;
+    top: 190px;
+    font-size: 12px;
+}
+.line{
+    display: none;
+}
+.line0{
+    display: none;
+}
+.tabs {
+    left: 0px;
+}
+.tabs .all-post{
+    
+    position: absolute;
+    top: -276px;
+    left: 12px;
+    /* font-size: 14px;*/
+}
+.tabs .article,.tabs .event,.tabs .education,.tabs .job{
+display: none;
+}
+
+
+    }

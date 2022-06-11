@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.cards-container{
+  /* background-color: red; */
+  position: relative;
+width: 692px;
+height: 1900px;
+left: 200px;
+top: 610px;
+
+display: flex;
+flex-direction: column;
+row-gap: 16px;
+}
+@media screen and (max-width: 360px) {
+  .cards-container{
+    position: absolute;
+    left: 0px;
+    top: 307px;
+    width: 360px; 
+  }
+}

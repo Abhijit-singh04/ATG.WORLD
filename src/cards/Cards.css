@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+.card {
+    /* background-color: red; */
+    position: relative;
+    width: 692px;
+    height: 472px;
+    /* left: 200px; */
+    /* top: 620px; */
+
+    /* background: #FFFFFF; */
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.card-image {
+    position: relative;
+    width: 692px;
+    height: 220px;
+    /* left: 200px; */
+    /* top: 628px; */
+
+    /* background: url(card1.png), #C4C4C4; */
+    border-radius: 4px 4px 0px 0px;
+}
+
+.card .card-image img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.card-about {
+    position: relative;
+    /* width: 77px; */
+    height: 25px;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.card-topic {
+    position: relative;
+    width: 600px;
+    height: 60px;
+    left: 20px;
+    top: 30px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 134.17%;
+    /* or 30px */
+
+
+    color: #000000;
+}
+
+.card img {
+    position: absolute;
+    left: 648.67px;
+    /* right: 0%; */
+    top: 287.67px;
+    bottom: -8.33%;
+
+    /* background: #000000; */
+    /* transform: rotate(90deg); */
+}
+
+.answer {
+    position: relative;
+    width: 652px;
+    height: 25px;
+    left: 20px;
+    top: 40px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 134.17%;
+    /* or 25px */
+
+
+    color: #5C5C5C;
+}
+
+.dp {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    left: 20px;
+    top: 100px;
+
+    /* background: url(dp1.png); */
+    border-radius: 24px;
+}
+
+.dp img {
+    position: relative;
+    top: -24px;
+    left: 0;
+}
+
+.user-name {
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 78px;
+    top: 416px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.share {
+    /* background-color: royalblue; */
+    position: absolute;
+    top: 410px;
+    /* right: 26px; */
+    left: 615px;
+    /* bottom: 26px; */
+    width: 68px;
+    height: 36px;
+
+    background: #EDEEF0;
+    border-radius: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share img {
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 22px;
+    height: 22px;
+    background: none;
+}
+
+.views {
+    position: absolute;
+    width: 69px;
+    height: 18px;
+    left: 521px;
+    top: 419px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #525252;
+}
+
+.eye-container {
+    position: absolute;
+    left: 495.75px;
+    right: 179.75px;
+    top: 422.38px;
+    bottom: 38.38px;
+    /* background-color: aqua; */
+    /* background: #DADADA; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eye-container img {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    background: none;
+}
+
+/* ✍️ Article
+What if famous brands had regular fonts? Meet RegulaBrands!
+I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+Sarthak Kamra
+1.4k views */
+@media screen and (max-width: 360px) {
+    .card {
+        width: 360px;
+        height: 328px;
+    }
+
+    .card-image {
+        width: 360px;
+        height: 120px;
+    }
+
+    .card img {
+        position: absolute;
+        /* font-size: 14px; */
+        left: 318.67px;
+        top: 170.67px;
+    }
+
+    .card .card-image img {
+        width: 360px;
+        height: 120px;
+    }
+
+    .card-about {
+        position: absolute;
+        font-size: 14px;
+        left: 16px;
+        top: 134px;
+    }
+
+    .card-topic {
+        position: absolute;
+        font-size: 16px;
+        left: 16px;
+        top: 159px;
+        width: 280px;
+    }
+
+    .answer {
+        position: absolute;
+        font-size: 14px;
+        left: 16px;
+        top: 211px;
+        width: 324px;
+    }
+
+    .dp {
+        position: absolute;
+        width: 37px;
+        height: 37px;
+        left: 16px;
+        top: 264px;
+    }
+
+    .dp img {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 37px;
+        height: 37px;
+    }
+
+    .user-name {
+        position: absolute;
+        width: 91px;
+        height: 17px;
+        left: 65px;
+        top: 266px;
+        font-size: 13px;
+    }
+
+    .views {
+        position: absolute;
+        width: 59px;
+        height: 16px;
+        left: 65px;
+        top: 285px;
+        font-size: 12px;
+    }
+
+    .eye-container {
+        display: none;
+    }
+
+    .share {
+        position: absolute;
+        width: 70px;
+        height: 36px;
+        left: 272px;
+        top: 266px;
+    }
+
+    .card .share img {
+        position: relative;
+        width: 12px;
+        height: 12px;
+        top: 0px;
+        left: -2px;
+    }
+
+    .share-text {
+        display: flex;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        position: relative;
+        left: 4px;
+    }
+}
